@@ -1,7 +1,7 @@
 name: Terraform Destroy
 on: workflow_dispatch
 jobs:
-  terraform_apply:
+  terraform_destroy:
     runs-on: ubuntu-latest
     steps:
       - name: Saludo inicial
